@@ -86,8 +86,8 @@ public class SecondaryActivity extends AppCompatActivity {
 
     private boolean editTextsRellenos(){
         boolean relleno = true;
-        for (EditText campo: editText) {
-            if(campo.getText().toString().isEmpty()){
+        for (EditText editText: editText) {
+            if(editText.getText().toString().isEmpty()){
                 relleno = false;
             }
         }
